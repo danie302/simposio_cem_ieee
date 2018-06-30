@@ -16,7 +16,10 @@ class Footer extends Component {
               <img src={ poster } className="img-fluid" width="90px" height="90px"  alt="Logo" />
             </Link>
           </div>
-          <div className="navbar navbar-collapse collapse">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div className="navbar navbar-collapse collapse"  id="navbarSupportedContent">
             <div className="navbar-nav">
               <ul className="navbar-nav">
                 <li className="nav-item active">

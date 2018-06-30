@@ -9,16 +9,16 @@ import poster from '../images/big_logo_uninorte.png';
 class Home extends Component {
   render(){
     return(
-      <div>
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-5">
+          <div className="col-md-5">
             <h1 className="description top-left" >
               Technology and healthcare, advancing together towards a better, kinder future
             </h1>
           </div>
-          <div className="col-sm-5">
+          <div className="col-md-5">
             <div className="poster">
-              <img src={ poster } className="img-fluid" width="80%" height="50%" alt="Main poster" />
+              <img src={ poster } className="img-fluid" alt="Main poster" />
             </div>
           </div>
         </div>
@@ -34,12 +34,12 @@ class Home extends Component {
         <br/>
 
         <div className="row">
-          <div className="col-sm-5">
+          <div className="col-md-5">
             <h2 className="description-2">
               Meet our revolutionary engineers and medics, that are working for a better future
             </h2>
           </div>
-          <div className="col-sm-5">
+          <div className="col-md-5">
             <Link to="/panelist" className="btn btn-warning pan-btn">Panelists</Link>
           </div>
         </div>
