@@ -4,14 +4,17 @@ import { Link } from 'react-router-dom';
 
 // Assets
 import  '../css/navbar.css';
+import poster from '../images/big_logo_uninorte.png';
 
 class Footer extends Component {
   render(){
     return(
-      <div className=" bg-F">
+      <div className="container-fluid bg-warning border">
         <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-bottom">
           <div class="navbar-header">
-            <Link to="" class="navbar-brand" >Simposio</Link>
+            <Link to="" class="navbar-brand" >
+              <img src={ poster } className="img-fluid" width="90px" height="90px"  alt="Logo" />
+            </Link>
           </div>
           <div className="navbar navbar-collapse collapse">
             <div className="navbar-nav">

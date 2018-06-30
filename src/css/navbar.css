@@ -5,19 +5,8 @@
   background-color: #ffc107;
 }
 
-.bg {
-  background-color: #ffc107;
-  border-radius: 4px;
-  border-right-style: solid;
-  border-left-style: solid;
-  width: stretch;
-  height: 100px;
-}
-
-.bg-F {
-  background-color: #ffc107;
-  align-items: baseline;
-  height: 70px;
+.border {
+  border-style: solid;
 }
 
 .link-size {

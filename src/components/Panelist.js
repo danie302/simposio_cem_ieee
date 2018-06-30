@@ -9,7 +9,13 @@ import user from '../images/user.png'
 class Panelist extends Component {
   render(){
     return(
-      <div>
+      <div className="container-fluid">
+
+        <br/>
+        <br/>
+        <br/>
+
+        
         <div className="row">
           <div className="col">
             <div className="card test">
@@ -33,6 +39,13 @@ class Panelist extends Component {
               </div>
             </div>
           </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <div className="row">
           <div className="col">
             <div className="card test">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap3"/>
@@ -55,6 +68,14 @@ class Panelist extends Component {
               </div>
             </div>
           </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+
+        <div className="row">
           <div className="col">
             <div className="card test">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap5"/>
@@ -67,6 +88,12 @@ class Panelist extends Component {
             </div>
           </div>
         </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+
       </div>
     );
   }
