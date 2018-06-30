@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 // Assets
 import  '../css/home.css';
 import poster from '../images/big_logo_uninorte.png';
-import circuit from '../images/circuit.png';
 
 class Home extends Component {
   render(){
