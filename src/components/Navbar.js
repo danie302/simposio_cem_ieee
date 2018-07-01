@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 // Assets
 import  '../css/navbar.css';
-import  logo  from '../images/big_logo_uninorte.png';
+import  logo  from '../images/uninorte_horizontal.png';
 
 class NavBar extends Component {
   render(){
