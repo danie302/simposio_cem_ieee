@@ -57,9 +57,9 @@ class Contact extends Component {
                 <h1 className="display-4">Contact us</h1>
                 <p className="lead">To get more information about the event you could contact one of our organizers.</p>
                 <hr className="my-4"/>
-                <h6>Mail</h6>
+                <h6 className="title">Mail</h6>
                 <p>simposio.bioingenieria@gmail.com</p>
-                <h6>Number</h6>
+                <h6 className="title">Number</h6>
                 <p>+57 xxx xxxxxxx</p>
               </div>
 
