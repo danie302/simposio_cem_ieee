@@ -1,11 +1,9 @@
 // Dependencies
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 
 // Assets
 import  '../css/contact.css';
-import  logo  from '../images/big_logo_uninorte.png';
 
 class Contact extends Component {
   constructor(props){
