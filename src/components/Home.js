@@ -11,12 +11,12 @@ class Home extends Component {
     return(
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-5">
+          <div className="col">
             <h1 className="description top-left" >
               Technology and healthcare, advancing together towards a better, kinder future
             </h1>
           </div>
-          <div className="col-md-5">
+          <div className="col">
             <div className="poster">
               <img src={ poster } className="img-fluid" alt="Main poster" />
             </div>
@@ -34,12 +34,12 @@ class Home extends Component {
         <br/>
 
         <div className="row">
-          <div className="col-md-5">
+          <div className="col">
             <h2 className="description-2">
               Meet our revolutionary engineers and medics, that are working for a better future
             </h2>
           </div>
-          <div className="col-md-5">
+          <div className="col">
             <Link to="/panelist" className="btn btn-warning pan-btn">Panelists</Link>
           </div>
         </div>
