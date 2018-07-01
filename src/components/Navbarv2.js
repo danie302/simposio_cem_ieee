@@ -10,7 +10,7 @@ import  logo  from '../images/big_logo_uninorte.png';
 class NavBar extends Component {
   render(){
     return(
-        <nav className="navbar navbar-expand-xl navbar-light bg-warning">
+        <nav className="navbar navbar-expand-xl navbar-light bg-warning content-justify-end">
           <Link to="/" className="navbar-brand" >
             <img src={ logo } className="img-fluid" width="90px" height="90px"  alt="Logo" />
           </Link>
