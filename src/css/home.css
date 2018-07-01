@@ -1,75 +1,38 @@
 .poster {
   float: right;
   margin-right: auto;
-  margin-top: 80px;
+  margin-left: auto;
+  margin-top: 8vw;
 }
 
 .description {
-  margin-left: 100px;
-  margin-top: 120px;
-  margin-bottom: 100px;
-  height: 200px;
-  width: 400px;
+  margin-left: 9vw;
+  margin-top: 10vw;
+  margin-bottom: 8vw;
   height: auto;
-  font-size: 30px;
+  width: 30vw;
+  font-size: 2.2vw;
   color: black;
   font-family: monospace;
   text-shadow: 0.2vw 0.2vw #ffc107;
 }
 
 .description-2 {
-  margin-left: 100px;
-  margin-top: 1px;
-  margin-bottom: 300px;
-  height: 200px;
-  width: 400px;
+  margin-left: 9vw;
+  margin-top: 10vw;
+  margin-bottom: 18vw;
   height: auto;
-  font-size: 30px;
+  width: 30vw;
+  font-size: 2.2vw;
   color: black;
   font-family: monospace;
   text-shadow: 0.2vw 0.2vw #ffc107;
-}
-
-.img-bg {
-  opacity: 0.3;
-  margin-left: 80px;
 }
 
 .container {
    position: relative;
    text-align: center;
    color: white;
-}
-
-.bottom-left {
-   position: absolute;
-   bottom: 8px;
-   left: 16px;
-}
-
-.top-left {
-   position: absolute;
-   top: 8px;
-   left: 16px;
-}
-
-.top-right {
-   position: absolute;
-   top: 8px;
-   right: 16px;
-}
-
-.bottom-right {
-   position: absolute;
-   bottom: 8px;
-   right: 16px;
-}
-
-.centered {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
 }
 
 .pan-btn {
