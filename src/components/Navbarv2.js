@@ -10,14 +10,14 @@ import  logo  from '../images/big_logo_uninorte.png';
 class NavBar extends Component {
   render(){
     return(
-        <nav className="navbar navbar-expand-xl navbar-light bg-warning content-justify-end">
+        <nav className="navbar navbar-expand-xl navbar-light bg-warning">
           <Link to="/" className="navbar-brand" >
             <img src={ logo } className="img-fluid" width="90px" height="90px"  alt="Logo" />
           </Link>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item active">
                 <Link to="/panelist" className="nav-link link-size" >Panelist</Link>
