@@ -23,7 +23,7 @@ class NavBar extends Component {
                 <Link to="/panelist" className="nav-link link-size" >Panelist</Link>
               </li>
               <li className="nav-item active">
-                <Link to="/" className="nav-link link-size" >Prices</Link>
+                <Link to="/prices" className="nav-link link-size" >Prices</Link>
               </li>
               <li className="nav-item active">
                 <Link to="/location" className="nav-link link-size" >Location</Link>
