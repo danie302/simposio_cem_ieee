@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import '../css/App.css';
 
 // Components
-import Navbar from './Navbarv2';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 class App extends Component {
