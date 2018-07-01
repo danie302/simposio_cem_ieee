@@ -21,50 +21,52 @@ class Contact extends Component {
   }
 
   render(){
-    return(
         if (this.state.show === false) {
-          <div className="container-fluid">
+          return(
+            <div className="container-fluid">
 
-            <br/>
-            <br/>
-            <br/>
+              <br/>
+              <br/>
+              <br/>
 
-            <div class="jumbotron">
-              <h1 class="display-4">Contact us</h1>
-              <p class="lead">To get more information about the event you could contact one of our organizers.</p>
-              <hr class="my-4"/>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" role="button" onClick={ this.onClick }>Learn more</a>
-              </p>
+              <div class="jumbotron">
+                <h1 class="display-4">Contact us</h1>
+                <p class="lead">To get more information about the event you could contact one of our organizers.</p>
+                <hr class="my-4"/>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" role="button" onClick={ this.onClick }>Learn more</a>
+                </p>
+              </div>
+
+              <br/>
+              <br/>
+              <br/>
+
             </div>
-
-            <br/>
-            <br/>
-            <br/>
-
-          </div>
+        );
         }
         if (this.state.show === true) {
-          <div className="container-fluid">
+          return(
+            <div className="container-fluid">
 
-            <br/>
-            <br/>
-            <br/>
+              <br/>
+              <br/>
+              <br/>
 
-            <div class="jumbotron">
-              <h1 class="display-4">Contact us</h1>
-              <p class="lead">To get more information about the event you could contact one of our organizers.</p>
-              <hr class="my-4"/>
-              <p class="lead">Renderizado</p>
+              <div class="jumbotron">
+                <h1 class="display-4">Contact us</h1>
+                <p class="lead">To get more information about the event you could contact one of our organizers.</p>
+                <hr class="my-4"/>
+                <p class="lead">Renderizado</p>
+              </div>
+
+              <br/>
+              <br/>
+              <br/>
+
             </div>
-
-            <br/>
-            <br/>
-            <br/>
-
-          </div>
+        );
         }
-    );
   }
 }
 
