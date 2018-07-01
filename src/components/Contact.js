@@ -29,21 +29,12 @@ class Contact extends Component {
               <br/>
               <br/>
 
-<<<<<<< HEAD
               <div className="jumbotron">
                 <h1 className="display-4">Contact us</h1>
                 <p className="lead">To get more information about the event you could contact one of our organizers.</p>
                 <hr className="my-4"/>
                 <p className="lead">
                   <a className="btn btn-warning btn-lg" role="button" onClick={ this.onClick }>Contact us</a>
-=======
-              <div class="jumbotron">
-                <h1 class="display-4">Contact us</h1>
-                <p class="lead">To get more information about the event you could contact one of our organizers.</p>
-                <hr class="my-4"/>
-                <p class="lead">
-                  <a class="btn btn-primary btn-lg" role="button" onClick={ this.onClick }>Learn more</a>
->>>>>>> 237f36e708aeed74962df07d2ad841895e54bb62
                 </p>
               </div>
 
@@ -62,7 +53,6 @@ class Contact extends Component {
               <br/>
               <br/>
 
-<<<<<<< HEAD
               <div className="jumbotron">
                 <h1 className="display-4">Contact us</h1>
                 <p className="lead">To get more information about the event you could contact one of our organizers.</p>
@@ -71,13 +61,6 @@ class Contact extends Component {
                 <p>simposio.bioingenieria@gmail.com</p>
                 <h6>Number</h6>
                 <p>+57 xxx xxxxxxx</p>
-=======
-              <div class="jumbotron">
-                <h1 class="display-4">Contact us</h1>
-                <p class="lead">To get more information about the event you could contact one of our organizers.</p>
-                <hr class="my-4"/>
-                <p class="lead">Renderizado</p>
->>>>>>> 237f36e708aeed74962df07d2ad841895e54bb62
               </div>
 
               <br/>
