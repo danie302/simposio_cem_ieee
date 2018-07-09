@@ -2,38 +2,42 @@
   float: right;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 8vw;
+  margin-top: 15vw;
+}
+.img-poster {
+  height: 30vw;
+  width: 30vw;
 }
 
 .description {
-  margin-left: 9vw;
+  margin-left: 2vw;
   margin-top: 10vw;
   margin-bottom: 8vw;
   height: auto;
-  width: 30vw;
-  font-size: 2.2vw;
-  color: black;
-  font-family: monospace;
-  text-shadow: 0.2vw 0.2vw #ffc107;
+  width: 45vw;
+  font-size: 5vw;
+  color: white;
+  text-align: left;
+  font-family: fantasy;
+  font-weight: bold;
+  text-shadow: 0.5vw 0.3vw black;
 }
 
 .description-2 {
-  margin-left: 9vw;
+  margin-left: 2vw;
   margin-top: 10vw;
   margin-bottom: 18vw;
   height: auto;
-  width: 30vw;
-  font-size: 2.2vw;
-  color: black;
-  font-family: monospace;
-  text-shadow: 0.2vw 0.2vw #ffc107;
+  width: 50vw;
+  font-size: 5vw;
+  color: white;
+  text-align: left;
+  font-family: fantasy;
+  font-weight: bold;
+  text-shadow: 0.5vw 0.3vw black;
 }
 
-.container {
-   position: relative;
-   text-align: center;
-   color: white;
-}
+
 
 .pan-btn {
   border-radius: 10px;
@@ -41,8 +45,11 @@
   border-style: solid;
   border-color: black;
   margin-left: 10vw;
-  margin-top: 5vw;
-  width: 15vw;
-  height: 4.5vw;
-  font-size: 2vw;
+  width: 16vw;
+  height: 6vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-top: 20vw;
+  margin-bottom: auto;
 }

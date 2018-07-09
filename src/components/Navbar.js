@@ -19,16 +19,16 @@ class NavBar extends Component {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav">
-              <li className="nav-item active">
+              <li className="nav-item active border-link bg-secondary">
                 <Link to="/panelist" className="nav-link link-size" >Panelist</Link>
               </li>
-              <li className="nav-item active">
+              <li className="nav-item active border-link bg-secondary">
                 <Link to="/prices" className="nav-link link-size" >Prices</Link>
               </li>
-              <li className="nav-item active">
+              <li className="nav-item active border-link bg-secondary">
                 <Link to="/location" className="nav-link link-size" >Location</Link>
               </li>
-              <li className="nav-item active">
+              <li className="nav-item active border-link bg-secondary">
                 <Link to="/contact" className="nav-link link-size" >Contact</Link>
               </li>
             </ul>

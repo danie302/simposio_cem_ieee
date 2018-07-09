@@ -21,18 +21,18 @@ class Contact extends Component {
   render(){
         if (this.state.show === false) {
           return(
-            <div className="container-fluid">
+            <div className="container-fluid ">
 
               <br/>
               <br/>
               <br/>
 
-              <div className="jumbotron">
-                <h1 className="display-4">Contact us</h1>
-                <p className="lead">To get more information about the event you could contact one of our organizers.</p>
+              <div className="jumbotron contact">
+                <h1 className="titles">Contact us</h1>
+                <p className="parag">To get more information about the event you could contact one of our organizers.</p>
                 <hr className="my-4"/>
                 <p className="lead">
-                  <a className="btn btn-warning btn-lg" role="button" onClick={ this.onClick }>Contact us</a>
+                  <a className="btn btn-warning pan-btn2" role="button" onClick={ this.onClick }>Contact us</a>
                 </p>
               </div>
 
@@ -51,14 +51,14 @@ class Contact extends Component {
               <br/>
               <br/>
 
-              <div className="jumbotron">
-                <h1 className="display-4">Contact us</h1>
-                <p className="lead">To get more information about the event you could contact one of our organizers.</p>
+              <div className="jumbotron contact">
+                <h1 className="titles">Contact us</h1>
+                <p className="parag">To get more information about the event you could contact one of our organizers.</p>
                 <hr className="my-4"/>
-                <h6 className="title">Mail</h6>
-                <p>simposio.bioingenieria@gmail.com</p>
-                <h6 className="title">Number</h6>
-                <p>+57 xxx xxxxxxx</p>
+                <h6 className="titles-2">Mail</h6>
+                <p className="parag-2">simposio.bioingenieria@gmail.com</p>
+                <h6 className="titles-2">Number</h6>
+                <p className="parag-2">+57 xxx xxxxxxx</p>
               </div>
 
               <br/>

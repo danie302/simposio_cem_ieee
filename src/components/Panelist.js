@@ -11,14 +11,9 @@ class Panelist extends Component {
     return(
       <div className="container-fluid">
 
-        <br/>
-        <br/>
-        <br/>
-
-        
         <div className="row">
           <div className="col">
-            <div className="card test">
+            <div className="card test  background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -29,7 +24,7 @@ class Panelist extends Component {
             </div>
           </div>
           <div className="col">
-            <div className="card test">
+            <div className="card test  background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap2"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -41,13 +36,10 @@ class Panelist extends Component {
           </div>
         </div>
 
-        <br/>
-        <br/>
-        <br/>
 
         <div className="row">
           <div className="col">
-            <div className="card test">
+            <div className="card test  background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap3"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -58,7 +50,7 @@ class Panelist extends Component {
             </div>
           </div>
           <div className="col">
-            <div className="card test">
+            <div className="card test  background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap4"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -70,14 +62,10 @@ class Panelist extends Component {
           </div>
         </div>
 
-        <br/>
-        <br/>
-        <br/>
-
 
         <div className="row">
           <div className="col">
-            <div className="card test">
+            <div className="card test  background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap5"/>
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -88,10 +76,6 @@ class Panelist extends Component {
             </div>
           </div>
         </div>
-
-        <br/>
-        <br/>
-        <br/>
 
 
       </div>

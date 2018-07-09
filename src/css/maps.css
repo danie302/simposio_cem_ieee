@@ -1,4 +1,18 @@
 .maps {
-  width: 40vw;
-  height: 35vw;
+  width: 80vw;
+  height: 60vh;
+  margin-left: 6.5vw;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 7vw;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 0.5vw 0.3vw black;
+  margin-top: 3vh;
 }

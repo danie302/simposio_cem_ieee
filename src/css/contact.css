@@ -1,3 +1,46 @@
-.title {
+.titles {
   font-weight: bold;
+  font-size: 10vw;
+  font-family: fantasy;
+  color: white;
+  text-shadow: 0.5vw 0.3vw black;
+}
+
+.titles-2 {
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: fantasy;
+  color: white;
+  text-shadow: 0.5vw 0.3vw black;
+}
+
+.contact {
+  background-color: inherit;
+}
+
+.parag {
+  font-size: 3vw;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.parag-2 {
+  font-size: 3vw;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.pan-btn2 {
+  border-radius: 10px;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+  margin-left: 29vw;
+  margin-top: 5vw;
+  margin-bottom: auto;
+  width: 25vw;
+  height: 8vw;
+  font-size: 4vw;
+  font-weight: bold;
+  font-family: fantasy;
 }

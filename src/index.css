@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.contain {
+  background-image: url("./images/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,6 +1,8 @@
 // Dependencies
 import React, { Component } from 'react';
 
+// Assets
+import  '../css/prices.css';
 
 class Prices extends Component {
   render(){
@@ -14,8 +16,8 @@ class Prices extends Component {
 
         <div className="row">
           <div className="col">
-            <div class="card bg-warning">
-              <div class="card-body">
+            <div class="card card-box bg-warning">
+              <div class="card-body card-text">
                 <h5 class="card-title">CEM</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Cem Members</h6>
                 <hr className="my-4"/>
@@ -25,7 +27,7 @@ class Prices extends Component {
           </div>
 
           <div className="col">
-            <div class="card bg-warning">
+            <div class="card card-box bg-warning">
               <div class="card-body">
                 <h5 class="card-title ">IEEE</h5>
                 <h6 class="card-subtitle mb-2 text-muted">IEEE Members</h6>
@@ -36,7 +38,7 @@ class Prices extends Component {
           </div>
 
           <div className="col">
-            <div class="card bg-warning">
+            <div class="card card-box bg-warning">
               <div class="card-body">
                 <h5 class="card-title ">Students</h5>
                 <hr className="my-4"/>
@@ -46,7 +48,7 @@ class Prices extends Component {
           </div>
 
           <div className="col">
-            <div class="card bg-warning">
+            <div class="card card-box bg-warning">
               <div class="card-body">
                 <h5 class="card-title ">Profesionals</h5>
                 <hr className="my-4"/>

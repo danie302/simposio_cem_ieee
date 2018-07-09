@@ -9,6 +9,8 @@ class Location extends Component {
     return(
       <div className="container-fluid">
 
+        <h1 className="title">Universidad del Norte</h1>
+
         <br/>
         <br/>
         <br/>

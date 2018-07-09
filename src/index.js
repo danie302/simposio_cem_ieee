@@ -12,7 +12,7 @@ import AppRoutes from './routes';
 import store from './store'
 
 render(
-  <Provider store={ store } >
+  <Provider store={ store } className="main-box">
     <Router>
       <AppRoutes />
     </Router>

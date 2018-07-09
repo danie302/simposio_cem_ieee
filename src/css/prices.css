@@ -1,0 +1,11 @@
+.card-box {
+  margin: 2vw;
+  width: 35vw;
+  border-width: medium;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.card-text {
+  font-family: fantasy;
+}

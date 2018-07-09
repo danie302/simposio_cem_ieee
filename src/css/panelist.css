@@ -1,4 +1,11 @@
 .test {
   width: 18rem;
-  margin: auto;
+  margin: 2vh;
+  margin-left: 12vw;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+ background: #ffe6b3;
+ font-family: fantasy;
 }
