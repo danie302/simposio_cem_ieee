@@ -13,10 +13,10 @@ class Panelist extends Component {
 
         <div className="row">
           <div className="col">
-            <div className="card test  background">
+            <div className="card test background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap"/>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Jose Manjarres</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -24,10 +24,10 @@ class Panelist extends Component {
             </div>
           </div>
           <div className="col">
-            <div className="card test  background">
+            <div className="card test background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap2"/>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Camilla Colleti</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -39,10 +39,10 @@ class Panelist extends Component {
 
         <div className="row">
           <div className="col">
-            <div className="card test  background">
+            <div className="card test background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap3"/>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Valerio Voliani</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -50,10 +50,10 @@ class Panelist extends Component {
             </div>
           </div>
           <div className="col">
-            <div className="card test  background">
+            <div className="card test background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap4"/>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Mario Jojoa</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -65,10 +65,10 @@ class Panelist extends Component {
 
         <div className="row">
           <div className="col">
-            <div className="card test  background">
+            <div className="card test background">
               <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap5"/>
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Pedro Narvaez</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -77,6 +77,20 @@ class Panelist extends Component {
           </div>
         </div>
 
+
+        <div className="row">
+          <div className="col">
+            <div className="card test background">
+              <img className="card-img-top" src={ user } width="200px" height="250px" alt="Card cap5"/>
+              <div className="card-body">
+                <h5 className="card-title">Jorge Christancho</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     );
