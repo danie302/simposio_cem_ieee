@@ -5,11 +5,13 @@ import { Link } from 'react-router-dom';
 // Assets
 import  '../css/home.css';
 import poster from '../images/big_logo_uninorte.png';
+import fill from '../images/user.png'
 
 class Home extends Component {
   render(){
     return(
       <div className="container-fluid">
+        
         <div className="row">
           <div className="col">
             <h1 className="description" >
@@ -22,6 +24,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
 
         <br/>
         <br/>
